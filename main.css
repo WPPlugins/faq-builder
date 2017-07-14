@@ -1,0 +1,67 @@
+/*
+* Default Class
+*/
+.faq_build_default a{ cursor:pointer; }
+/*
+*  Form Styles
+*/
+.faq_build_form_text{
+	width:30%;
+	text-align:right;
+	vertical-align:top;
+	padding:3px 5px 0 0;
+	font-weight:bold;
+}
+.faq_build_form_input{
+	text-align:left;
+	vertical-align:top;
+	padding:2px 0 3px 0;
+	text-align:left;
+	font-size:0.9em;
+}
+.faq_build_text,.faq_build_select{ width:80%; }
+.faq_build_textarea{ 
+	width:90%;
+	height:80px;
+}
+.faq_build_text_small{ width:110px; }
+.faq_build_select_small{ width:120px; }
+/*
+*  Message Styles
+*/
+.faq_build_error,.faq_build_error_box{ color:#FF0000; }
+.faq_build_message{ color:#00CC00; }
+.faq_build_error,.faq_build_error_box,.faq_build_message{
+	font-weight:bold;
+	font-size:0.9em;
+}
+.faq_build_error_box{
+	border:2px solid #FF0000;
+	padding:3px;
+}
+/*
+*  FAQ Page Styles
+*/
+.faq_build_question,.faq_build_date{ font-weight:bold; }
+.faq_build_question{ font-size:1.1em; }
+.faq_build_date{ font-size:0.8em; }
+.faq_build_answer{}
+.faq_build_pagination{ 
+	border-bottom:1px solid #999999;
+	text-align:right;
+	font-size:0.85em;
+}
+/*
+*  FAQ Manager Styles
+*/
+#icon-tools{ background:url('http://faqbuilder.squarecompass.com/wp-content/themes/thematic/images/faq_logo_small.png') left top no-repeat; }
+/*
+*  Misc. Styles
+*/
+.faq_build_title{
+	font-size:1.4em;
+	font-weight:bold;
+}
+.faq_build_note,.faq_build_small{ font-size:0.8em; }
+.faq_build_note{ color:#999999; }
+.faq_build_powered{ font-size:0.7em; }
